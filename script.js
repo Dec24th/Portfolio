@@ -8,3 +8,7 @@ function fixNav() {
         nav.classList.remove('active')
     }
 }
+
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
