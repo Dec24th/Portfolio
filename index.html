@@ -7,13 +7,15 @@
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Allan Acosta">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Allan Acosta</title>
 </head>
 
 <body>
-    <!-- <nav class="nav">
+    <!-- 
+        <nav class="nav">
         <div class="container">
             <h1 class="logo"><a href="#">my projects</a></h1>
             <ul>
@@ -26,55 +28,32 @@
     </nav>
     -->
 
-    <nav class="nav">
-        <div class="container">
-            <h1>my projects</h1>
+    <span onclick="openNav()">
+        <div class="hero">
+            <div class="container">
+                <h1>allan acosta</h1>
+                <p>recent coding bootcamp graduate and self-taught programmer ready to take on the world, one line of
+                    code at a time.</p>
+            </div>
+        </div>
+    </span>
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="https://successful-run.surge.sh" target="_blank">Chicago Marathon</a>
+            <a href="https://successful-park.surge.sh" target="_blank">Frank Sinatra Statue</a>
+            <a href="#">testing</a>
+            <a href="#">Testing</a>
+            <i class="fab fa-github">l</i>
+
         </div>
 
-        <div class="container" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar2"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar1"></div>
-            <div class="bar3"></div> 
-            <div class="bar3"></div> 
-            
-            
-          </div>
-    </nav>
-    <div class="hero">
-        <div class="container">
-            <h1>allan acosta</h1>
-            <p>recent coding bootcamp graduate and self-taught programmer ready to take on the world, one line of code
-                at a time.</p>
-        </div>
     </div>
 
     <script src="script.js"></script>
