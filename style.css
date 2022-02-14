@@ -14,7 +14,8 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto;  
+    display: inline-block;
 }
 
 .hero {
@@ -63,10 +64,6 @@ body * {
     color: gold;
     transition: all 1s ease-out;
 }
-
-.container {
-    display: inline-block;
-  }
   
 /* The Overlay (background) */
 .overlay {
